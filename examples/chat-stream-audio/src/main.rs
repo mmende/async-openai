@@ -47,7 +47,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         .arg("-c")
         .arg("1")
         .arg("-r")
-        .arg("22050")
+        .arg("24000")
         .arg("-")
         .stdin(std::process::Stdio::piped())
         .spawn()
